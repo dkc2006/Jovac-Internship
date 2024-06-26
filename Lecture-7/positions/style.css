@@ -12,28 +12,29 @@ div{
 }
 
 /* static => offset kaam ❌ */
+
 #static #middle{
     position: static;
     top: 100px;
     left: 100px;
 }
 
-
 /* relative => offset kaam ✅ */
+
 #relative #middle{
     position: relative;
-    /* top: 50px; */
-    /* left: 50px; */
+    /* top: 50px;
+    left: 50px; */
 }
 
+/* ------------------------- */
 
-/* --------------- */
+ /* absolute => offset kaam ✅ */
 
-/* absolute => offset kaam ✅ */
 #absolute #middle{
     position: absolute;
-    /* top: 50px; */
-    /* left: 50px; */
+    /* top: 100px;
+    left: 100px; */
 }
 
 #absolute{
@@ -41,7 +42,7 @@ div{
     position: relative;
 }
 
-/* ------------- */
+/* ------------------- */
 
 #fixed #middle{
     /* position: fixed; */
@@ -54,8 +55,7 @@ div{
     position: relative;
 }
 
-
-/* ------------ */
+/* ----------------------- */
 #sticky #middle{
     position: sticky;
     top: 50px;
