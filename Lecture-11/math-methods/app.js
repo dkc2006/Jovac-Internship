@@ -82,6 +82,7 @@
 
 
 // -------------------------
+
 // let person = {
 //     naam:"swaggy boi",
 //     umar: 24,
