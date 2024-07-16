@@ -6,7 +6,7 @@
 // ------------------------------
 
 // class Person{
-//     constructor(){
+//     constructor(){ //fn
 
 //     }
 // }
@@ -62,15 +62,30 @@ console.log(p1.khaoPiyo(),p2.khaoPiyo());
 
 
 // -----------------------------
+//scenario -> class banani hai jo exact same kaam kregi -> student
 
-class Student extends Person{}
+// class Student extends Person{}
 
-let s1 = new Student('sudhir','sudhir@example.com',true);
+// let s1 = new Student('sudhir','sudhir@example.com',true);
 
-console.log(s1);
+// console.log(s1);
 
 
 // ----------------------------------------------------------------
+//not wrong , but it is not optimised (best way)
+// class student{
+//     constructor(naam , mail , shadi){      
+//         this.name = naam;
+//         this.email = mail;
+//         this.isMarried = shadi;
+//     }
+
+//     khaoPiyo(){
+//         console.log(`hello from ${this.name}`)
+//     }
+// }
+
+// ----------------------------------------------------
 
 // inheritance
 
@@ -101,3 +116,5 @@ class Student extends Person{
         console.log(`tata form student ${this.naam}`);
     }
 }
+let s1 = new Student('sam','sam@gmail.com',true,13);
+console.log(s1, s1.aishKaro() , s1.khaoPiyo()) //kaunsa? -> child vala
