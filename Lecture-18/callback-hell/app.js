@@ -1,26 +1,27 @@
 
 
-// //approach 1 -> normal
+//approach 1 -> normal
 
 // function step1() {
-//     // console.log("selecting image");
+    // console.log("selecting image");
 //     setTimeout(function(){
 //         console.log("image selected");
-//         return ("selected image");
+//         return ("image");
 //     },4000)
 // }
 
 // function step2(image) {
-//     // console.log("apply filter");
+    // console.log("apply filter");
 //     setTimeout(function(){
 //         console.log(`applied filter to the ${image}`);
 //         return ("filtered image");
 //     },2000)
-// }
+// }0
+
 
 
 // function step3(filterdImage) {
-//     // console.log("selecting caption");
+    // console.log("selecting caption");
 //     setTimeout(function(){
 //         console.log(`caption added to the ${filteredImage}`);
 //         return ("final image");
@@ -29,9 +30,9 @@
 
 
 // function step4(final) {
-//     // console.log("uploading your image please wait...");
+    // console.log("uploading your image please wait..."); 
 //     setTimeout(function(){
-//         console.log(`uploaded your final ${final}`);
+//         console.log(`uploaded your ${final}`);
 //     },4000)
 // }
 
