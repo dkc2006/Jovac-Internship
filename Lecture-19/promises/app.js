@@ -1,6 +1,5 @@
 
 
-
 // let promise1 = new Promise((resolve , reject)=>{
 
 // })
@@ -8,14 +7,14 @@
 // ----------------
 
 // let promise1 = new Promise((resolve , reject)=>{
-//     //resolve.reject (value)
+    //resolve.reject (value)
 //     let data = "10 rupee";
 //     let error = "nhi dera";
-//     // resolve(data); //.then
-//     // reject(error); //.catch
+    // resolve(data); //.then
+    // reject(error); //.catch
 // })
 
-// // console.log(promise1)
+// console.log(promise1)
 // promise1
 // .then((d)=>{
 //     console.log(d)
@@ -33,11 +32,11 @@
 // let promise1 = new Promise((resolve , reject)=>{
 //     let data = "10 rupee";
 //     let error = "nhi dera";
-//     // resolve(data); 
+    // resolve(data); 
 //     reject(error); 
 // })
 
-// // console.log(promise1)
+// console.log(promise1)
 // promise1
 // .then((err)=>{
 //     console.log(err)
