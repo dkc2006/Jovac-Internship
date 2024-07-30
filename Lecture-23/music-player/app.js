@@ -71,10 +71,3 @@ songList.addEventListener('click' , function(e){
 })
 
 
-// task right and left click (id + , id -)
-
-// ---------------------------------------------------
-// assignment-3 (2 days -> friday-12baje raat ke)
-// style it 
-// do next and forward
-// ---------------------------------------------------
