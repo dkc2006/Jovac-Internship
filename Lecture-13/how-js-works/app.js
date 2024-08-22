@@ -19,6 +19,7 @@ b(); // i am function b
 // }
 
 //undefined
+
 // var a = 25;
 
 //error -> Cannot access 'a' before initialization -> DEAD TEMPORAL ZONE
