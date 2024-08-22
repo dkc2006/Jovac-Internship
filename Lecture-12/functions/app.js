@@ -28,8 +28,8 @@
 
 // camel casing -> let deepanshuKhandelwalISACoder
 
-// let returnedValue = deep(10,30);//10
-// console.log(returnedValue);
+// let returnedValue = deep(10,30);
+// console.log(returnedValue); //40
 
 // ----------------------------------
 
@@ -38,7 +38,7 @@
 //     let b;
     // when nothing is returned from a function then by default ``undefined`` is returned
 // }
-// console.log(output(11,21))
+// console.log(output(11,21)) // Undefined
 
 // ----------------------------
 
